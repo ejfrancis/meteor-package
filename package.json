@@ -1,0 +1,12 @@
+{
+  "name": "meteor-package",
+  "version": "0.1.0",
+  "description": "Integration for using and relying on Meteor Atmosphere packages in npm packages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
