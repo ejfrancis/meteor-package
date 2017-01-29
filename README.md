@@ -5,7 +5,7 @@ This package exists to make integrating npm packages with Atmosphere packages ea
 
 ## Define Meteor Dependencies
 
-Inside your npm package or non-Meteor code, you can rely on a package by simply getting it in the proper environment (client or server) like this:
+Inside your npm package or non-Meteor code, you can rely on a Meteor package by simply getting it in the proper environment (client or server) like this:
 
 ```javascript
 import { getMeteorClientPackage,  getMeteorServerPackage } from 'meteor-package';
