@@ -1,6 +1,6 @@
 {
   "name": "meteor-package",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Integration for using and relying on Meteor Atmosphere packages in npm packages.",
   "main": "index.js",
   "scripts": {

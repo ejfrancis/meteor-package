@@ -7,8 +7,8 @@ function reportMissingMeteorDependency(name, environment) {
 
 function getMeteorClientPackage(name) {
    if (Meteor.isClient) {
-     if (typeof global.Package[name] !== 'undefined') {
-       return global.Package[name];
+     if (typeof window.Package[name] !== 'undefined') {
+       return window.Package[name];
      } else {
           reportMissingMeteorDependency(name, 'client');
      } 
